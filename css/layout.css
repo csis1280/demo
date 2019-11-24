@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: ghostwhite;
+    display: grid;
+    }
+body{
+    background-color: powderblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 12pt;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+            /*--Search Bar--*/
+
+.search-box{
+    background: rgba(47, 12, 80, 0.747);
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    border-radius: 40px;
+    padding:10px;    
+}
+
+.search-btn{
+    color: plum;
+    float: left;;
+    width: 250px;
+    height:25px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.search-txt{
+    border:1px;
+    outline:none;
+    background: none;
+    float: left;
+    padding:0;
+    color:white;
+    font-size:16px;
+    transition:0.4s;
+    line-height: 40px;
+    width:150px;
+}
+/*--Navigetor--*/
+nav{
+    width: 100%;
+    color: green;
+   }
+.navul{
+    list-style-type: none;
+    position: absolute;
+    right:50;
+    top:50px;   
+    display: flex;
+    flex-direction: row;
+        }
+.navul>li{
+    padding: 15px;
+     
+}
+/*-- paragraph--*/
+
+.p1{
+    margin: 20px;
+    line-height: 10ox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1>ul{
+    margin:20px;
+}
+ /*--table--*/
+
+.tb1, .tb1>th, .tb1>td{
+    border:1px solid black;
+    padding: 5px
+    
+    }
+table{
+    border-collapse: collapse;
+    width: 85%;
+    margin: 25px;
+   
+}
+th{
+    color: darkgoldenrod;
+    }
+.tr3{
+   font-size: 14pt;
+   color:darkgoldenrod;
+   text-align: center;
+}
+    /**--aside--**/
+
+aside{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    margin:5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+ }
+.tb2{
+    padding:5px;
+    margin: 3px;
+    display: table-cell;
+    width:100%;
+    height: 100%;
+    color:rgb(160, 45, 236);
+    font-size: 10pt;
+    line-height: 20px;
+ }
+.tb2>th,.tb2>td{
+    width: 33.3%;
+    height: 25%;
+  
+  
+    
+}
+
+
